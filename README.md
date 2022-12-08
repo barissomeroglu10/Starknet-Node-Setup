@@ -12,15 +12,15 @@ https://ibb.co/3zCLmnt
 
 https://ibb.co/tCPY5LT
 
-++ Let's start installing Node.
++ Let's start installing Node.
 
 wget -O StarknetTR.sh https://raw.githubusercontent.com/thisislexar/Starknet-Node/main/StarknetTR.sh && chmod +x StarknetTR.sh && ./StarknetTR.sh
 
-+++ Open the screen.
++ Open the screen.
 
 screen -S starknet
 
-++++ Start Node.
++ Start Node.
 
 mkdir -p $HOME/pathfinder
 docker run \
@@ -32,7 +32,7 @@ docker run \
   -v $HOME/pathfinder:/usr/share/pathfinder/data \
   eqlabs/pathfinder
   
-+++++ NOW UPDATE YOUR NODE WİTH THESE CODE. DO THESE STEP BY STEP.
++ NOW UPDATE YOUR NODE WİTH THESE CODE. DO THESE STEP BY STEP.
   
   
 1. screen -r starknet 
